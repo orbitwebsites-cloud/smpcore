@@ -1,7 +1,7 @@
 name: SmpCore
 version: '${project.version}'
 main: me.orbitboyzz.smpcore.SmpCore
-api-version: '26.2'
+api-version: '1.21'
 description: Custom plugin for the Llama SMP.
 author: orbitboyzz
 

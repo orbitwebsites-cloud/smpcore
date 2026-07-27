@@ -11,9 +11,10 @@
   <name>SmpCore</name>
 
   <properties>
-    <java.version>25</java.version>
-    <!-- Matches the running server: 26.2-63-3a55f62 (MC 26.2) -->
-    <paper.version>26.2.build.63-beta</paper.version>
+    <!-- Paper 1.21.11 targets Java 21; the bundled JDK 25 compiles to it fine -->
+    <java.version>21</java.version>
+    <!-- Matches the running server: Paper 1.21.11 build 132 -->
+    <paper.version>1.21.11-R0.1-SNAPSHOT</paper.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
@@ -21,6 +22,7 @@
     <repository>
       <id>papermc</id>
       <url>https://repo.papermc.io/repository/maven-public/</url>
+      <snapshots><enabled>true</enabled></snapshots>
     </repository>
   </repositories>
 
