@@ -1,0 +1,11 @@
+name: SmpCore
+version: '${project.version}'
+main: me.orbitboyzz.smpcore.SmpCore
+api-version: '26.2'
+description: Custom plugin for the Llama SMP.
+author: orbitboyzz
+
+commands:
+  smp:
+    description: Shows SMP info. Try /smp
+    usage: /smp
